@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Bang-SamuraiSword-DB" id="3UOf0IvdMrytZzfZnj56">
-    <mxGraphModel dx="2020" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1768" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="7I8WdE-5iISZCifFmlWb-14" parent="7I8WdE-5iISZCifFmlWb-13" style="align=left;strokeColor=none;fillColor=none;spacingLeft=8;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK id: uuid&lt;br&gt;FK game_id: uuid&lt;br&gt;FK card_id: uuid&lt;br&gt;FK holder_player_id: uuid (null)&lt;br&gt;location: enum(deck,hand,played,discard)&lt;br&gt;position: int" vertex="1">
           <mxGeometry height="140" width="240" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="7I8WdE-5iISZCifFmlWb-15" edge="1" parent="1" source="7I8WdE-5iISZCifFmlWb-1" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="7I8WdE-5iISZCifFmlWb-5" value="">
+        <mxCell id="7I8WdE-5iISZCifFmlWb-15" edge="1" parent="1" source="7I8WdE-5iISZCifFmlWb-2" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;rounded=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="7I8WdE-5iISZCifFmlWb-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7I8WdE-5iISZCifFmlWb-16" edge="1" parent="1" source="7I8WdE-5iISZCifFmlWb-3" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;startFill=0;endFill=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7I8WdE-5iISZCifFmlWb-5" value="">
